@@ -143,7 +143,6 @@ body {
     .content {
         padding: 0 30px;
         height: 100%;
-        border: 3px solid red;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
