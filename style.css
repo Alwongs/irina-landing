@@ -44,7 +44,7 @@ body {
 }
 
 .filter-green {
-    background: linear-gradient(135deg, rgba(20, 80, 30, 0.4), rgba(10, 50, 15, 0.2));
+    background: linear-gradient(135deg, rgba(20, 80, 30, 0.5), rgba(10, 50, 15, 0.3));
     z-index: 2;
 }
 
