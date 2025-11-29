@@ -28,7 +28,11 @@ body {
     top: 0;
     left: 0;
     opacity: 0;
-    animation: gentleAppear 3s ease 0.3s forwards;    
+    transition: opacity 1.5s ease;   
+}
+
+.background-image.loaded {
+    opacity: 1;
 }
 
 @keyframes gentleAppear {
