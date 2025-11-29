@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профессиональный фотограф</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="website">
+        <img src="./main.jpg" alt="Фотография работ" class="background-image">
+
+        
+        <div class="filter filter-red"></div>
+        <div class="filter filter-green"></div>
+        <div class="filter filter-blue"></div>
+        
+        <div class="content">
+            <h1 class="title">Лучший фотограф</h1>
+            <p class="subtitle">Профессиональная фотосъемка любого уровня сложности</p>
+            <button id="bookingBtn" class="cta-button">Записаться на съемку</button>
+        </div>
+    </div>
+
+    <!-- Модальное окно -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-content">
+                <div class="modal-icon">✅</div>
+                <h2 class="modal-title">Заявка принята!</h2>
+                <p class="modal-text">Мы свяжемся с вами в течение 2 часов для уточнения деталей съемки</p>
+                <button class="modal-close-btn" id="closeModal">Понятно</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>    
+</body>
+</html>
