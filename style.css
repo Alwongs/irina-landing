@@ -39,17 +39,17 @@ body {
 }
 
 .filter-red {
-    background: linear-gradient(45deg, rgba(120, 20, 20, 0.6), rgba(80, 10, 10, 0.4));
+    background: linear-gradient(45deg, rgba(120, 20, 20, 0.4), rgba(80, 10, 10, 0.2));
     z-index: 1;
 }
 
 .filter-green {
-    background: linear-gradient(135deg, rgba(20, 80, 30, 0.5), rgba(10, 50, 15, 0.3));
+    background: linear-gradient(135deg, rgba(20, 80, 30, 0.4), rgba(10, 50, 15, 0.2));
     z-index: 2;
 }
 
 .filter-blue {
-    background: linear-gradient(225deg, rgba(20, 50, 100, 0.5), rgba(10, 30, 70, 0.4));
+    background: linear-gradient(225deg, rgba(20, 50, 100, 0.4), rgba(10, 30, 70, 0.3));
     z-index: 3;
 }
 
